@@ -32,7 +32,7 @@ public:
 		m_host.name = "clap_test_scan";
 		m_host.version = "0.0.1";
 		m_host.vendor = "rncbc.org";
-		m_host.url = "https://git.rncbc.org/test/clap_test";
+		m_host.url = "https://github.com/rncbc/clap_test_scan";
 		m_host.get_extension = clap_test_scan::Impl::get_extension;
 		m_host.request_restart = clap_test_scan::Impl::request_restart;
 		m_host.request_process = clap_test_scan::Impl::request_process;
